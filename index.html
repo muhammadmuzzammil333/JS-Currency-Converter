@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <h2>Currency Converter</h2>
+        <form>
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text" value="100">
+            </div>
+
+            <div class="secondMainContainer">
+
+                <div class="fromContainer">
+                    <div class="fromText">
+                        <p>from</p>
+                        </div>
+                        
+                        <div class="fromCurrency">
+                        <img src="https://flagsapi.com/US/flat/64.png"  >
+                        <select name="From" >From
+                            <!-- <option value="USD">USD</option>
+                            <option value="PKR">PKR</option>
+                            <option value="INR">INR</option>
+                            <option value="AUD">AUD</option> -->
+                        </select>
+                    </div>
+
+                </div>
+
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                
+                <div class="toContainer">
+                                 
+                    <div class="toText">
+                        <p>To</p>
+                    </div>
+                    
+                    <div class="toCurrency">
+                        <img src="https://flagsapi.com/PK/flat/64.png" >
+                        <select name="To">To
+                            <!-- <option value="USD">USD</option>
+                            <option value="PKR">PKR</option>
+                            <option value="INR">INR</option>
+                            <option value="AUD">AUD</option> -->
+                        </select>            
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="message">
+                <p>1USD = 300PKR</p>
+            </div>
+        </form>
+
+        <button>Get Exchange Rate</button>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
